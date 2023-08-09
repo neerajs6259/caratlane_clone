@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#fm{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 400px;
+    /* background-color: pink; */
+    margin-top: 100px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+h3{
+    font-family: Arial;
+}
+input{
+    height: 30px;
+    width:350px ;
+    /* border-radius: 15px; */
+}
+button{
+    height: 30px;
+    width: 350px;
+    background-color:rgb(238, 130, 238);
+}
+img{
+    height: 50px;
+    width: 50px;
+}
+.pa{
+    font-size: small;
+}
+.m{
+    font-size: 15px;
+}
+

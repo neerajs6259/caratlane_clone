@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 1000px;
+}
+.mg{
+    height: 400px;
+    width: 100%;
+}
+#r1{
+    min-height: 40px;
+    padding: 15px;
+    margin-bottom: 0px;
+    background: linear-gradient(to right,rgb(255, 209, 217),rgb(243, 130, 243),rgb(119, 119, 246));
+}
+button{
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-left: 20px;
+    font-size: small;
+}
+.al{
+    width:30px;
+    background-color: rgb(191, 112, 224);
+}
+.other{
+    width: 100px;
+}
+.sidebtn{
+    width: 150px;
+    margin-left: 80%;
+}
+#typ{
+    width: 300px;
+    height: 950px;
+    margin-top: 0px;
+    border-radius: 30px;
+    margin-left: 30px;
+    font-style: normal;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: block;
+    position: absolute;
+}
+h2,h3{
+    font-family: arial;
+    font-size: medium;
+    font-style: bold;
+}
+#heading{
+    background-color: rgb(197, 197, 197);
+    text-align: center;
+    height: 40px;
+    padding-top: 20px;
+
+}
+#btn{
+    height: 35px;
+    width: 200px ;
+    color: purple;
+    background-color: rgb(223, 193, 223);
+   margin-left: 15%;
+}
+input,h2{
+    margin-left: 20px
+}
+.pd{
+    padding: 30px;
+}
+              /* div 2  */
+img{
+    height: 250px;
+    width: 300px;
+}
+#big{
+    margin-left:10px;
+    height: 950px;
+    /* overflow: auto;
+    overflow-y: scroll; */
+    gap: 20px;
+}
+#small1{
+    display: flex;
+    width: 500px;
+    margin-left: 400px;
+    gap: 20px;
+}
+#small2{
+    display: flex;
+    width: 500px;
+    margin-left: 400px;
+    gap: 20px;
+    margin-top: 70px;
+}
+#small3{
+    display: flex;
+    width: 500px;
+    margin-left:10px;
+    gap: 20px;
+    margin-top: 400px;
+    position: absolute;
+   
+}
+#small4{
+    display: flex;
+    width: 500px;
+    margin-left: 10px;
+    gap: 20px;
+    position: absolute;
+    margin-top: 800px;
+}
+#small5{
+    display: flex;
+    width: 500px;
+    margin-left: 10px;
+    gap: 20px;
+    position: absolute;
+    margin-top: 1200px;
+}
+.verysmall{
+    /* position:relative; */
+    height: 350px;
+    width: 300px;
+    border: 1px solid black;
+    gap: 20px;
+    position: relative;
+}
+
