@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* .anime{
+    position: relative;
+    animation-name: alter;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+@keyframes {
+    from{
+        
+    }
+    to{
+
+    }
+}
+
+} */
+.anime {
+    width: 1390px;
+    height: 90px;
+    background: linear-gradient(45deg, rgb(253, 245, 180), rgb(252, 203, 255), rgb(211, 161, 246));
+}
+.pic{
+    height: 400px;
+    width: 400px;
+    display: grid;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+#game{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 40px;
+
+}
+.first{
+    text-align: center;
+}
+#san{
+    display: grid;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    grid-template-columns: auto auto auto ;
+    grid-template-rows: auto auto;
+    justify-content: center;
+}
+.first{
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    justify-content: center;
+}
+#san{
+    border-radius: 4px;
+}
+/* #ram{
+    display: grid;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    justify-content: center;
+    grid-template-columns: auto auto auto ;
+    grid-template-rows: auto auto;
+    border-radius: 5px;
+
+}
+.second{
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    justify-content: center;
+
+} */
+/* img{
+    text-align: center;
+} */
+/* #ram{
+    display: flex;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    justify-content: center;
+}
+.second{
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    justify-content: center;
+    text-align: center;
+
+} */
+
+#ram{
+    display: grid;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    grid-template-columns: auto auto auto ;
+    grid-template-rows: auto auto;
+    justify-content: center;
+}
+.second{
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    justify-content: center;
+}
+#tryy{
+    width: 1000px;
+    Height: 800px;
+}
