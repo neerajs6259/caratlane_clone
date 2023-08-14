@@ -1,0 +1,500 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+#item{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 450px;
+    /* background-color: pink; */
+    margin-top: 69px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+h3{
+    font-family: Arial;
+    color: rgb(87,59,110);
+    font-size: x-large;
+}
+.m{
+    padding: 12px;
+
+}
+input{
+    height: 30px;
+    width:350px ;
+    /* border-radius: 15px; */
+}
+/* button{
+    height: 30px;
+    width: 350px;
+    background-color:rgb(238, 130, 238);
+} */
+img{
+    height: 50px;
+    width: 50px;
+}
+.pa{
+    position: relative;
+    top: 20px;
+    font-size: medium;
+    color: rgb(87,59,110);
+}
+.m{
+    padding: 10px;
+    font-size: 15px;
+    color: rgb(87,59,110);
+}
+#splbtn{
+    width: 300px;
+    Height: 40px;
+    /* background-color: rgb(255, 0, 234); */
+    color: white;
+    border: none;
+border-radius: 10px;
+position: relative;
+top: 10px;
+background: linear-gradient(to right,#de57e5,#8863fb);
+width: 350px;
+Height: 50px;
+}
+#uopuop{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.5px;
+}
+input{
+    width: 300px;
+    Height: 40px;
+    margin-bottom: 15px;
+    border:none;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(246,243,249);
+}
+#holder{
+padding-left: 10px;
+color: black;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 400px;
+width: 350px;
+Height: 50px;
+
+}
+#inp{
+    border: 5px soild black;
+}
+.im{
+    margin: 15px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: relative;
+    top: 40px;
+    padding: 3px;
+}
+#uiui{
+    position: relative;
+    font-size: medium;
+    top: 40px;
+    font-weight: 100px;
+    opacity: 85%;
+}
+
+#cngh{
+    color: #de57e5;
+    text-decoration: none;
+    letter-spacing: 0.3px;
+}
+h6{
+    font-size: small;
+
+    position: relative;
+    top: 20px;
+    font-weight: 200px;
+    font-weight: 100;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Poppins:ital,wght@0,400;0,700;1,700&family=Roboto:wght@400;700&display=swap');
+*{
+margin: 0px;
+padding: 0px;
+}
+.pop{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 25px;
+    background-color: rgb(79,50,103);
+}
+#para{
+   color: rgb(255, 0, 183);
+    letter-spacing: 1px;
+}
+#pra{
+    color: rgb(225, 3, 122);
+}
+#par{
+    color: white;
+    letter-spacing: 1px;
+    font-size: small;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/* body{
+    font-family: Arial, Helvetica, sans-serif;
+} */
+                /* .......navbar.................. */
+
+.navbar{
+    display:flex;
+    flex-direction: column;
+    position: sticky;
+    top:0;
+    right:0;
+    left:0;
+    z-index: 1;
+}
+#navtext{
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+#imhh{
+    width: 200px;
+    Height: 50px;
+    border: none;
+}
+.spann{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    opacity: 100%;
+    color: black;
+    font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+letter-spacing: 1px;
+font-size: small;
+font-weight: 600;
+}
+#logonn{
+    position: absolute;
+    top: 25px;
+    right: 0px;
+    bottom: 50px;
+    Height: 30px;
+}
+.navbar a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    opacity: 78%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 1px;
+}
+.spancolor{
+    color: rgb(255, 0, 225);
+    font-size: small;
+    font-weight: 600;
+}
+.navbar-top{
+    display:flex;
+    justify-content: space-evenly;
+     /* background-color: gray;  */
+     height: 90px;
+     background-color: rgb(246,244,255); 
+    padding: 20px ;
+}
+.navbar-top-content{
+    padding-top: 20px;
+}
+#search_div{
+    margin-top: 12px;
+}
+#search_book{
+    height: 39px;
+    width: 250px;
+    border-radius: 5px 0px 0px 5px;
+    /* border: 1px solid grey; */
+border: 1px solid rgb(255, 0, 217);
+    padding-left: 10px;
+
+}
+#search_btn{
+    background: linear-gradient(rgb(185, 11, 185), rgb(225, 3, 122));
+    width:39px;
+    height: 39px;
+    color: white;
+    padding:6px;
+    border:none;
+   margin-left: -30px; 
+   border-radius: 0px 5px 5px 0px;
+   cursor: pointer;
+   
+}
+.navbar-bottom{
+    padding: 10px 20px;
+    display:flex;
+    justify-content: space-evenly;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.navbar-bottom :hover{
+    color: rgb(225, 0, 255);
+    text-shadow: 10px 10px 10px 15px rgb(255, 0, 255);
+    transition: 1s;
+}
+         
+.container img{
+    width:100%;
+    cursor:pointer;
+}
+/* -------------------footer---- */
+.footer{
+    background-color: #eee;
+    padding: 50px 30px;
+    margin-top: 60px;
+}
+.footer-top{
+    max-width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    line-height: 150%;
+}
+.footer-top li{
+    list-style: none;
+}
+.list{
+   font-size: larger;
+}
+.footer-bottom{
+    max-width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 20px;
+}
+.footer-bottom img{
+    width: 90%;
+}
+.footer-bottom-left{
+    max-width: 30%;
+}
+.left1{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+}
+.left2{
+    border-radius: 20px;
+}
+.footer-bottom-right{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 40px;
+}
+
+/* ---------ending-part--- */
+.head-para{
+    max-width: 90%;
+    margin: auto;
+    line-height: 200%;
+    padding:30px 20px
+}
+.head-para a{
+    text-decoration: none;
+    color: black;
+}
+.second-head{
+    color: blue;
+}
+
+/* ----------drop-down-------- */
+
+.submenu ul{
+    list-style: none;
+}
+.submenu a{
+    padding:15px;
+    display: block;
+    color:rgba(20, 19, 19, 0.7);
+}
+#menu{
+    position: relative;
+}
+
+.submenu{
+    height:100px;
+    background-color: white;
+    display: none;
+    position: absolute;
+    width: 200px;
+    top:100%; 
+    left:-100px ;
+    border-radius: 20px;
+} 
+.submenu h4{
+    border-radius: 20px;
+}
+
+#menu:hover .submenu{
+display:block;
+} 
+.submenu  a:hover{
+    color:black;
+    display: block;
+    background-color:green;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgba(58, 56, 56, 0.384); 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: gray; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: black; 
+  }
+
+           /* logout */
+
+ #logout{
+    display:none;
+    background-color: gray;
+    border:none;
+    font-size: 15px;
+    cursor:pointer
+ }          
+
+ 
+   /* Style the preloader container */
+   #preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+  #opbtn{
+    border: 2px solid rgb(225, 4, 144);
+    width: 300px;
+    background-color: transparent;
+    opacity: 50%;
+  }
+  #coloritt{
+    color: rgb(245, 12, 245);
+    letter-spacing: 1px;
+  }
+  .changethis{
+    margin: 20px;
+    padding: 2px;
+  }
+  #h3edit{
+    letter-spacing: 1px;
+    font-size: 30px;
+  }
+  .corotxt{
+    color: black;
+    opacity: 70%;
+    font-weight: bold
+  }
+  h4{
+    letter-spacing: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(59, 22, 108);
+    font-weight: bolder
+
+
+  }
+#corohd{
+    letter-spacing: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+.truck{
+    padding-right: 50px;
+}
+.ctmpara{
+color: rgb(196,173,225);
+}
+#merapara{
+    color: rgb(0, 0, 0);
+    opacity: 80%;
+}
+.fullcon {
+	-webkit-animation: slide-in-bck-center 0.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-bck-center 0.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+/* ----------------------------------------------
+ * Generated by Animista on 2023-8-11 18:57:5
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation slide-in-bck-center
+ * ----------------------------------------
+ */
+ @-webkit-keyframes slide-in-bck-center {
+    0% {
+      -webkit-transform: translateZ(600px);
+              transform: translateZ(600px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-bck-center {
+    0% {
+      -webkit-transform: translateZ(600px);
+              transform: translateZ(600px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  /* #mainimg {
+	-webkit-animation: vibrate-1 0.3s linear infinite both;
+	        animation: vibrate-1 0.3s linear infinite both;
+}
+  /* ----------------------------------------------
+ * Generated by Animista on 2023-8-11 19:0:59
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation vibrate-1
+ * ----------------------------------------
+ */

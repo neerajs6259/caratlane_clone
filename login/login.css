@@ -1,0 +1,86 @@
+*{
+margin: 0;
+padding: 0;
+}
+.cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    min-height: 100vh;
+}
+.item{
+    display: flex;
+    align-items: center;
+justify-content: center;
+/* text-align: center; */
+    width: 450px;
+    Height: 600px;
+    border: 2px solid black;
+
+}
+img{
+    width: 50px;
+    Height: 50px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#fm{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 400px;
+    /* background-color: pink; */
+    margin-top: 100px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+h3{
+    font-family: Arial;
+}
+input{
+    height: 30px;
+    width:350px ;
+    /* border-radius: 15px; */
+}
+/* button{
+    height: 30px;
+    width: 350px;
+    background-color:rgb(238, 130, 238);
+} */
+img{
+    height: 50px;
+    width: 50px;
+}
+.pa{
+    font-size: small;
+}
+.m{
+    font-size: 15px;
+}
+#splbtn{
+    width: 250px;
+    Height: 40px;
+    background-color: rgb(255, 0, 234);
+    color: white;
+    border: none;
+border-radius: 10px;
+}
+input{
+    width: 250px;
+    Height: 40px;
+    border:none;
+    border-radius: 5px;
+border: 1px solid rgb(140, 0, 255);
+}
+#holder{
+    position: relative;
+    left: 10px;
+    padding: 50px;
+    margin: 50px;
+}
+

@@ -1,0 +1,252 @@
+*{
+    margin:0
+}
+
+#container{
+    width: 100%;
+}
+#containertopimg>img{
+    width:100%
+}
+
+
+#topselectcontainer{
+    margin-top: -4px;
+    height: auto;
+    background: radial-gradient(circle at 5.7% 50%, rgba(218, 132, 247, 0.71) 29.5%, rgba(248, 193, 119, 0.8) 90.5%);
+}
+
+.selecat{
+    padding: 10px;
+    margin: 20px;
+    border: none;
+    border-radius: 10px
+    
+}
+
+.selecat:hover{
+    cursor: pointer;
+  
+    background: radial-gradient(circle at 5.7% 50%, rgba(218, 132, 247, 0.71) 29.5%, rgba(248, 193, 119, 0.8) 90.5%);
+    color:white
+}
+
+
+#sort{
+    margin-top :auto;
+    float: right;
+  
+    background: radial-gradient(circle at 5.7% 50%, rgba(218, 132, 247, 0.71) 29.5%, rgba(248, 193, 119, 0.8) 90.5%);
+    padding: 10px;
+    cursor: pointer;
+    color:white
+}
+
+
+
+#midcontainer{
+    width:100%;
+    height:auto;
+    display: flex;
+    justify-content:space-evenly;
+    position: sticky;
+    margin-top: 30px;
+}
+
+
+#filtercontainer{
+    width:30%;
+    height:500px;
+    overflow: scroll;
+    overflow-x: hidden;
+    float: left;
+
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    
+   
+    
+}
+
+
+.pcenter{
+   
+    padding:30px;
+    background: radial-gradient(circle at 5.7% 50%, rgba(218, 132, 247, 0.71) 29.5%, rgba(248, 193, 119, 0.8) 90.5%);
+    margin:auto;
+   
+    text-align: center;
+    align-items: center;
+}
+
+
+.filter{
+   
+    width:70%;
+    margin:auto;
+    margin-top: 10px;
+}
+
+.filter>input{
+   margin: 10px;
+}
+.price{
+    text-align: center;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgba(58, 56, 56, 0.384); 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: gray; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: black; 
+  }
+
+#renderdata{
+    width: 100%;
+    height:100%;
+    
+}
+
+
+#renderdata{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+    margin:auto;
+    overflow-y: scroll;
+    height: 500px;
+}
+
+#card{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 20px;
+}
+
+#image{
+    width: 100%;
+}
+#trial{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#price{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#cardtop{
+    display: flex;
+    justify-content:space-between
+}
+#cardtop i{
+    color:green
+}
+#wishlist{
+    background-color: transparent;
+    border: 0;
+}
+#wishlist:hover{
+    cursor: pointer;
+    background-color:green;
+    border-radius: 5px;
+}
+#cardtop i:hover{
+    color:white
+}
+#addtocart{
+  float: right;
+}
+
+#tryhome{
+    background-color: transparent;
+    padding: 5px;
+    border-radius: 4px;
+    border-color: green;
+    color:green
+}
+
+#livevedio{
+    background-color: transparent;
+    padding: 5px;
+    border-radius: 4px;
+    border-color: gold;
+    color:gold
+}
+
+#addtocart{
+    background-color: transparent;
+    padding: 10px;
+    border: 0;
+    border-radius: 3px;
+    background-color: green;
+    color: white;
+    font-size: 12px;
+    
+}
+#addtocart:hover{
+    cursor: pointer;
+    background-color: rgba(3, 109, 3, 0.61);
+}
+.myimg{
+    width: 300px;
+}
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    Height: 550px;
+    border: 2px solid black;
+}
+#san{
+    display: grid;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: auto auto auto ;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    gap: 10px;
+}
+.first{
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+    
+
+}
+#san{
+    border-radius: 4px;
+}
+.first{
+    text-align: center;
+}
+
+#side{
+    position: absolute;
+    left: 0px;
+    top: 50px;
+}
+#neerajg{
+    color: rgb(255, 0, 255);
+}
